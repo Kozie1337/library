@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "watch": "tsc -w",
+        "devjs": "nodemon dist/index.js",
+        "startjs": "node dist/index.js",
+        "devts": "nodemon --exec ts-node src/index.ts",
+        "startts": "ts-node src/index.ts"
+      }
+}
